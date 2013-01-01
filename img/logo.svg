@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="70.5556mm" height="57.3391mm" version="1.2" style="shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd" viewBox="0 0 147.078 145.307" xmlns:xlink="http://www.w3.org/1999/xlink" baseProfile="tiny">
+	<defs>
+		<filter id="f1" x="0" y="0" width="120%" height="120%">
+			<feComponentTransfer in="SourceAlpha">
+				<feFuncR type="discrete" tableValues=".4"/>
+				<feFuncG type="discrete" tableValues=".05"/>
+				<feFuncB type="discrete" tableValues="0"/>
+			</feComponentTransfer>
+			<feGaussianBlur stdDeviation="5" />
+			<feOffset result="offOut" dx="0" dy="0" />
+			<feMerge> 
+				<feMergeNode/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
+
+		<filter id="f2" x="0" y="0" width="110%" height="110%">
+			<feComponentTransfer in="SourceAlpha">
+				<feFuncR type="discrete" tableValues=".3"/>
+				<feFuncG type="discrete" tableValues=".3"/>
+				<feFuncB type="discrete" tableValues=".3"/>
+			</feComponentTransfer>
+			<feGaussianBlur stdDeviation="5" />
+			<feOffset result="offOut" dx="0" dy="0" />
+			<feMerge> 
+				<feMergeNode/>
+				<feMergeNode in="SourceGraphic"/>
+			</feMerge>
+		</filter>
+	</defs>
+	<path fill="#DC7910" stroke="#D7701B" stroke-linejoin="bevel" d="M137.078,129.569c0,3.169-2.569,5.737-5.737,5.737H7.509
+			c-3.168,0-5.737-2.568-5.737-5.737V5.738C1.772,2.569,4.341,0,7.509,0h123.832c3.168,0,5.737,2.569,5.737,5.738V129.569z" filter="url(#f2)"/>
+		<path id="path6859_2_" fill="#FFFFFF" d="M118.381,56.365c9.88-9.081,10.812-25.796,2.031-35.939
+			c-8.168-10.369-24.333-12.706-35.133-5.141c-6.367,3.974-9.793,10.914-12.038,17.801c-7.543,18.399-24.067,32.702-43.046,38.064
+			c-12.675,4.07-20.443,18.681-16.94,31.483c2.892,12.674,16.134,21.695,28.996,19.768c10.351-1.128,19.39-9.121,22.209-18.957
+			c7.075-19.833,24.237-35.568,44.478-41.224C112.459,60.971,115.692,58.963,118.381,56.365z M109.186,46.828
+			c-5.268,5.077-13.654,4.926-18.733-0.343c-5.08-5.267-4.923-13.654,0.344-18.731c5.267-5.078,13.653-4.925,18.732,0.343
+			C114.607,33.363,114.454,41.75,109.186,46.828z M48.115,105.644c-5.251,5.062-13.639,4.939-18.702-0.311
+			c-5.063-5.254-4.878-13.64,0.373-18.702c5.252-5.063,13.607-4.909,18.67,0.341C53.519,92.224,53.366,100.581,48.115,105.644z"  filter="url(#f1)"/>
+</svg>
